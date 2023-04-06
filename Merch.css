@@ -1,0 +1,94 @@
+
+body {
+    background-color: grey;
+    margin: 0;
+    font-family: 'calibri'
+}
+
+d*{ outline: 1px dotted lime;
+}
+
+.header{
+    background-color: black;
+    color: white;
+    height: 120px;
+    border-bottom: 5px solid white;
+}
+
+.nav{
+    display: grid;
+    grid-template-columns: 200px auto;
+margin-left: auto;
+margin-right: auto;
+max-width: 900px;
+}
+
+.logo{
+    margin-top: 40px;
+    font-size: 2.5em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.links {
+    margin-top: 50px;
+    font-size: 1.5em;
+    text-align: right;
+    color: gray;
+}
+
+.links a{
+    color: white;
+    padding-left: 150px;
+    padding-right: 30x;
+    text-decoration: none;
+
+}
+
+
+
+
+#home_des {
+    background-color: orange;
+    color:white ;
+    
+    line-height: 2em;
+    margin: auto;
+    height: 700px;
+    text-align: center;
+    position: relative; bottom: 80px;
+    border-bottom: 20px solid white;
+
+    
+}
+
+#home_des h1 {
+    font-weight: bold;
+    margin-top: 80px;
+    text-align: center;
+    padding-left: 80px;
+    font-size: 5em;
+    position:relative; top: 250px;
+}
+
+
+#footer {
+    color: whitesmoke;
+    background-color: #2D303A;
+    font-size: 1.5em;
+    position: relative; top: 609px;
+    height: 200px;
+    text-align: center;
+    padding-bottom: 20px;
+
+
+}
+#footer h1{
+    font-weight: bold;
+    margin-top: 80px;
+    text-align: center;
+    padding-left: 80px;
+    font-size: 2em;
+    position: relative;top: 10px;
+
+}
+
+
