@@ -1,0 +1,41 @@
+body {
+    background-color: #ADE4E5;
+    margin: 0;
+    font-family: 'calibri';
+}
+
+.header{
+    background-color: #C40000;
+    color: #F3D70D;
+    height: 250px;
+
+}
+
+
+
+
+.logo{
+position: relative;left: 20px;
+
+}
+
+.links {
+  position: relative;bottom: 150px;left: 200px;
+    font-size: 3em;
+    
+   
+}
+
+.links a{
+    color: #F3D70D;
+    padding-left: 130px;
+    padding-right: 20x;
+    text-decoration: none;
+    font-family: JI Burrito;
+   
+}
+
+.title{
+    text-align: right;
+    position: relative;right: 20px; bottom: 450px;
+}
