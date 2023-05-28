@@ -5,7 +5,7 @@ body {
 }
 
 .header{
-    background-color:#C40000 ;
+    background-color: #C40000;
     color: #F3D70D;
     height: 250px;
 
@@ -30,25 +30,19 @@ position: relative;left: 20px;
    
 }
 
-.title{
-    text-align: right;
-    position: relative;right: 20px; bottom: 450px;
-}
 
-.gus{
-    text-align: right;
-    position: relative;top: 30px; right: 30px;
-}
-.bubble{
-    position: relative;bottom:600px; left: 30px;
-  
-}
-
-.text{
-    position: relative;bottom: 1180px; left: 70px;
+.centered{
+    text-align: center;
     font-family: JI Burrito;
-    font-size: 1.3em;
-    max-width: 1050px;
-    color: #C40000;
-   
+    color: #F3D70D;
+    font-size: 2.5em;
+}
+
+
+ #food{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    text-align: center;
+    
 }
