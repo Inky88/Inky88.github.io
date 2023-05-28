@@ -7,35 +7,32 @@ body {
 .header{
     background-color: #C40000;
     color: #F3D70D;
-    height: 250px;
+    height: 208px;
 
 }
-
-
 
 
 .logo{
-position: relative;left: 20px;
-
-}
-
-.links {
-  position: relative;bottom: 150px;left: 200px;
-    font-size: 3em;
+    position: relative;left: 20px; top: 10px;
+    }
     
-   
-}
-
-.links a{
-    color: #F3D70D;
-    padding-left: 130px;
-    padding-right: 20x;
-    text-decoration: none;
-    font-family: JI Burrito;
-   
-}
+    .links {
+      position: relative;bottom: 120px;right: 130px;
+        font-size: 3em;
+        text-align: right;
+    }
+    
+    .links a{
+        color: #F3D70D;
+        padding-left: 160px;
+        padding-right: 20x;
+        text-decoration: none;
+        font-family: JI Burrito;
+    }    
 
 .title{
     text-align: right;
     position: relative;right: 20px; bottom: 450px;
 }
+
+
