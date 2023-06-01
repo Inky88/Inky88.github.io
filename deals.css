@@ -1,8 +1,15 @@
+
+
+
+
+
 body {
     background-color: #ADE4E5;
     margin: 0;
-    font-family: 'calibri';
+    font-family: 'JI BURRITO';
 }
+
+
 
 .header{
     background-color: #C40000;
@@ -12,9 +19,11 @@ body {
 }
 
 
-.logo{
-    position: relative;left: 20px; top: 10px;
+    .logo img{
+        margin: 10px 0 0 20px;
     }
+  
+    
     
     .links {
       position: relative;bottom: 120px;right: 130px;
@@ -30,9 +39,62 @@ body {
         font-family: JI Burrito;
     }    
 
-.title{
-    text-align: right;
-    position: relative;right: 20px; bottom: 450px;
+.footer{
+   color:#C40000;
+   background-color : #F3D70D;
+margin-top: 80px;
+font-size: 0.8em;
+text-align: center;
+height: 120px;
+
+
+}
+.footer h2{
+    margin-left: 30px;
+    font-family: JI BURRITO;
+    color: #C40000;
+   
+
+}
+.footer a{
+    text-decoration: none;
 }
 
+@media screen and (max-width:376px)
+{
+    
+.header{
+    background-color: #C40000;
+    color: #F3D70D;
+    height: 150px;
+    width: 375px;
 
+    .logo img{
+     height: 145px;
+     position: relative;
+     bottom: 10px;
+    }
+
+    .links {
+       position: relative;
+    right: 16px;
+  
+          font-size: 1.7em;
+          
+      }
+      .links a{
+          color: #F3D70D;
+          text-decoration: none;
+          font-family: JI Burrito;
+      }  
+      .promo img{
+        max-height: 375;
+       
+      }
+
+   
+
+  
+    
+}
+}

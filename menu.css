@@ -1,8 +1,8 @@
 body {
     background-color: #1C7EC6;
     margin: 0;
-    font-family: 'calibri';
-}
+    font-family: 'JI BURRITO';
+ }
 
 .header{
     background-color: #C40000;
@@ -11,9 +11,9 @@ body {
 
 }
 
-.logo{
-    position: relative;left: 20px; top: 10px;
-    }
+.logo img{
+    margin: 10px 0 0 20px;
+}
     
     .links {
       position: relative;bottom: 120px;right: 130px;
@@ -46,3 +46,26 @@ body {
     text-align: center;
     
 }
+
+.footer{
+    color:#C40000;
+    background-color : #F3D70D;
+ margin-top: 90px;
+ text-decoration: none;
+ font-size: 0.8em;
+ text-align: center;
+ height: 120px;
+
+ 
+ }
+ .footer h2{
+     margin-left: 30px;
+     font-family: JI BURRITO;
+     color: #C40000;
+
+ 
+ }
+ .footer a{
+     text-decoration: none;
+ }
+

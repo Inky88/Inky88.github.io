@@ -12,8 +12,8 @@ body {
 }
 
 
-.logo{
-position: relative;left: 20px; top: 10px;
+.logo img{
+    margin: 10px 0 0 20px;
 }
 
 .links {
@@ -36,20 +36,52 @@ position: relative;left: 20px; top: 10px;
     position: relative;right: 20px; bottom: 450px;
 }
 
-.gus{
-    text-align: right;
-    position: relative;top: 30px; right: 30px;
-}
-.bubble{
-    position: relative;bottom:600px; left: 30px;
-  
-}
 
-.text{
-    position: relative;bottom: 1180px; left: 70px;
+
+
+
+
+.container {
+    position: absolute;
+   margin-top: 40px;
+   margin-left: 20px;
+    text-align: left;
+    color: #C40000;
+  }
+  
+  .top-left {
+    position: absolute;
+  bottom: 60px;
+    left: 50px;
     font-family: JI Burrito;
     font-size: 1.3em;
     max-width: 1050px;
-    color: #C40000;
-   
-}
+    margin-top: 300px;
+  }
+  
+
+
+  .footer{
+    color:#C40000;
+    background-color : #F3D70D;
+ margin-top: 80px;
+ font-size: 0.8em;
+ text-align: center;
+ height: 120px;
+ margin-top: 765px;
+ 
+ 
+ }
+ .footer h2{
+     margin-left: 30px;
+     font-family: JI BURRITO;
+     color: #C40000;
+    
+ 
+ }
+ .footer a{
+     text-decoration: none;
+ }
+ 
+  
+

@@ -11,11 +11,9 @@ body {
 
 }
 
-
-.logo{
-    position: relative;left: 20px; top: 10px;
-    }
-    
+.logo img{
+    margin: 10px 0 0 20px;
+}
     .links {
       position: relative;bottom: 120px;right: 130px;
         font-size: 3em;
@@ -30,16 +28,39 @@ body {
         font-family: JI Burrito;
     }    
 
-.title{
-    text-align: right;
-    position: relative;right: 20px; bottom: 450px;
-}
-
-.chickens{
-    text-align: right;
-
-}
-
+.column  {
+    
+    float: left;
+    width: 50%.50%;
+    padding: 5px;
+    margin-right: 36px; 
+  }
 .join{
-    position: relative;bottom: 550px; left: 50px;
+    margin-top: 200px;
 }
+
+
+
+.footer{
+    color:#C40000;
+    background-color : #F3D70D;
+ margin-top: 80px;
+ font-size: 0.8em;
+ text-align: center;
+ height: 120px;
+ margin-top: 765px;
+ 
+ 
+ }
+ .footer h2{
+     margin-left: 30px;
+     font-family: JI BURRITO;
+     color: #C40000;
+    
+ 
+ }
+ .footer a{
+     text-decoration: none;
+ }
+ 
+
