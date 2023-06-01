@@ -31,11 +31,6 @@ body {
    
 }
 
-.title{
-    text-align: right;
-    position: relative;right: 20px; bottom: 450px;
-}
-
 
 
 
@@ -83,5 +78,53 @@ body {
      text-decoration: none;
  }
  
-  
+ @media screen and (max-width:376px)
+  {
+   
+ .header{
+  background-color: #C40000;
+  color: #F3D70D;
+  height: 150px;
+  width: 375px;}
 
+  .logo img{
+   height: 145px;
+   position: relative;
+   bottom: 10px;
+  }
+
+  .links {
+     position: relative;
+  right: 16px;
+  bottom:  140px;
+
+        font-size: 1.7em;
+        
+    }
+    .links a{
+        color: #F3D70D;
+        text-decoration: none;
+        font-family: JI Burrito;
+    }  
+
+.container img{
+  display: none;
+ 
+}
+
+
+    
+    .top-left {
+     
+  position: relative;
+  bottom: 330px;
+  
+      font-family: JI Burrito;
+      font-size: 1em;
+      text-align: left;
+     max-width: 300px;
+   
+    }
+
+
+  }

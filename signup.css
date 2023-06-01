@@ -29,26 +29,39 @@ body {
     }    
 
 .column  {
-    
     float: left;
     width: 50%.50%;
-    padding: 5px;
-    margin-right: 36px; 
   }
-.join{
-    margin-top: 200px;
-}
+  .form-group{
+    font-family: JI Burrito;
+    color: #F3D70D;
+    font-size: 2em;
+    text-align: center;
+  }
+  .form-check{
+    margin-top: 30px;
+    text-align: center;
+    font-family: JI Burrito;
+    color: #F3D70D;
+    font-size: 2em;
+  }
+  .form-check button{
+    height: 25px;
+    width: 100px;
+    
 
+  }
+  
 
 
 .footer{
     color:#C40000;
     background-color : #F3D70D;
- margin-top: 80px;
+ 
  font-size: 0.8em;
  text-align: center;
  height: 120px;
- margin-top: 765px;
+ margin-top: 410px;
  
  
  }
@@ -93,22 +106,21 @@ body {
           text-decoration: none;
           font-family: JI Burrito;
       }  
-      .column{
-        position: relative;
-        bottom: 190px;
-        left: 50px;
-
+      .column  {
+        max-width: 360px;
+    position: relative;
+    left: 40px;
       }
-      .join{
-        position: relative;
-        right: 30px;
-
+      .form-group{
+        font-size: 1em;
+      }
+      .form-check{
+        font-size: 1.5em;
       }
       .footer{
-        position:  relative;
-        bottom: 300px;
-        height: 200px;
-      
+        position: relative;
+        bottom: 400px;
+
       }
     }
-
+    
