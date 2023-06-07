@@ -63,36 +63,36 @@ body {
      text-decoration: none;
  }
  
- @media screen and (max-width:376px)
+ @media screen and (max-width:320px)
 {
-    .body{
-        max-height: 812px;
-    }
+
+
 .header{
-    background-color: #C40000;
-    color: #F3D70D;
-    height: 150px;
-    width: 375px;}
+        background-color: #C40000;
+        color: #F3D70D;
+        height: 150px;
+        width: 320px;}
+    
+        .logo img{
+         height: 145px;
+         position: relative;
+         bottom: 10px;
+        }
+    
+        .links {
+        position: relative;
+        right: 16px;
+        bottom: 160px;
+        font-size: 1.7em;
+          }
+          .links a{
+              color: #F3D70D;
+              text-decoration: none;
+              font-family: JI Burrito;
+          }  
 
-    .logo img{
-     height: 145px;
-     position: relative;
-     bottom: 10px;
-    }
 
-    .links {
-       position: relative;
-    right: 16px;
-  
-   bottom: 140px;
-          font-size: 1.7em;
-          
-      }
-      .links a{
-          color: #F3D70D;
-          text-decoration: none;
-          font-family: JI Burrito;
-      }  
+
       .column{
         position: relative;
         bottom: 190px;
@@ -105,10 +105,7 @@ body {
 
       }
       .footer{
-        position:  relative;
-        bottom: 300px;
-        height: 200px;
-      
+        max-height: 737px;
       }
     }
 

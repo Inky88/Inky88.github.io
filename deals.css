@@ -67,7 +67,7 @@ height: 120px;
     background-color: #C40000;
     color: #F3D70D;
     height: 150px;
-    width: 375px;}
+    width: 320px;}
 
     .logo img{
      height: 145px;
@@ -76,11 +76,10 @@ height: 120px;
     }
 
     .links {
-       position: relative;
+    position: relative;
     right: 16px;
-  
-          font-size: 1.7em;
-          
+    bottom: 140px;
+    font-size: 1.7em;
       }
       .links a{
           color: #F3D70D;
@@ -88,9 +87,15 @@ height: 120px;
           font-family: JI Burrito;
       }  
       .promo img{
-       max-width: 375px;}
+       max-width: 320px;
+    position: relative;
+    bottom: 10px;
+    }
+       
+       
        .footer{
-        height: 450px;
+        height: 240px;
+        text-align: center;
        }
 
   
