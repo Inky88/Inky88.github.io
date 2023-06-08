@@ -1,175 +1,168 @@
 body {
-    background-color: #1C7EC6;
-    margin: 0;
-    font-family: 'calibri';
+background-color: #1C7EC6;
+ margin: 0;
+font-family: 'calibri';
 }
 
 .header{
-    background-color: #C40000;
-    color: #F3D70D;
-    height: 208px;
-
+background-color: #C40000;
+color: #F3D70D;
+height: 208px;
 }
 
 .logo img{
-    margin: 10px 0 0 20px;
+margin: 10px 0 0 20px;
 }
-    .links {
-      position: relative;bottom: 120px;right: 130px;
-        font-size: 3em;
-        text-align: right;
-    }
-    
-    .links a{
-        color: #F3D70D;
-        padding-left: 160px;
-        padding-right: 20x;
-        text-decoration: none;
-        font-family: JI Burrito;
-    }    
+.links {
+position: relative;bottom: 120px;right: 130px;
+font-size: 3em;
+text-align: right;
+}
+
+.links a{
+color: #F3D70D;
+padding-left: 160px;
+padding-right: 20x;
+text-decoration: none;
+font-family: JI Burrito;
+}    
 
 .column  {
-    float: left;
-    width: 50%.50%;
-  }
-  .form-group{
-    font-family: JI Burrito;
-    color: #F3D70D;
-    font-size: 2em;
-    text-align: center;
-  }
-  .form-check{
-    margin-top: 30px;
-    text-align: center;
-    font-family: JI Burrito;
-    color: #F3D70D;
-    font-size: 2em;
-  }
-  .form-check button{
-    height: 25px;
-    width: 100px;
-    
+float: left;
+width: 50%.50%;
+}
+.form-group{
+font-family: JI Burrito;
+color: #F3D70D;
+font-size: 2em;
+text-align: center;
+}
+.form-check{
+margin-top: 30px;
+text-align: center;
+font-family: JI Burrito;
+color: #F3D70D;
+font-size: 2em;
+}
 
-  }
-  
-
+.form-check button{
+height: 25px;
+width: 100px;
+}
 
 .footer{
-    color:#C40000;
-    background-color : #F3D70D;
+color:#C40000;
+background-color : #F3D70D;
+font-size: 0.8em;
+text-align: center;
+height: 120px;
+margin-top: 410px;
+}
+
+.footer h2{
+margin-left: 30px;
+font-family: JI BURRITO;
+color: #C40000;
+}
  
- font-size: 0.8em;
- text-align: center;
- height: 120px;
- margin-top: 410px;
+.footer a{
+text-decoration: none;
+}
  
- 
- }
- .footer h2{
-     margin-left: 30px;
-     font-family: JI BURRITO;
-     color: #C40000;
-    
- 
- }
- .footer a{
-     text-decoration: none;
- }
- 
- @media screen and (min-width:320px) and (max-width:320px)
+@media screen and (min-width:320px) and (max-width:320px)
+{
+
+.header{
+background-color: #C40000;
+color: #F3D70D;
+height: 150px;
+width: 320px;}
+
+.logo img{
+height: 145px;
+position: relative;
+bottom: 10px;
+}
+
+.links {
+position: relative;
+right: 16px;
+bottom: 160px;
+font-size: 1.7em;
+}
+
+.links a{
+color: #F3D70D;
+text-decoration: none;
+font-family: JI Burrito;
+}  
+
+.column  {
+max-width: 310px;
+position: relative;
+left: 40px;
+}
+
+.form-group{
+font-size: 1em;
+}
+.form-check{
+font-size: 1.5em;
+}
+.footer{
+position: relative;
+bottom: 400px;
+}
+}
+
+@media screen and (min-width:375px) and (max-width:375px)
 {
   
-  .header{
-    background-color: #C40000;
-    color: #F3D70D;
-    height: 150px;
-    width: 320px;}
+.header{
+background-color: #C40000;
+color: #F3D70D;
+height: 150px;
+width: 375px;}
 
-    .logo img{
-     height: 145px;
-     position: relative;
-     bottom: 10px;
-    }
+.logo img{
+height: 145px;
+position: relative;
+bottom: 10px;
+}
 
-    .links {
-    position: relative;
-    right: 16px;
-    bottom: 160px;
-    font-size: 1.7em;
-      }
-      .links a{
-          color: #F3D70D;
-          text-decoration: none;
-          font-family: JI Burrito;
-      }  
+.links {
+position: relative;
+right: 16px;
+bottom: 150px;
+font-size: 1.7em;
+}
+.links a{
+color: #F3D70D;
+text-decoration: none;
+font-family: JI Burrito;
+}  
 
+.column  {
+max-width: 360px;
+position: relative;
+left: 40px;
+}
 
+.form-group{
+font-size: 1em;
+}
 
-      .column  {
-        max-width: 310px;
-    position: relative;
-    left: 40px;
-      }
-      .form-group{
-        font-size: 1em;
-      }
-      .form-check{
-        font-size: 1.5em;
-      }
-      .footer{
-        position: relative;
-        bottom: 400px;
+.form-check{
+font-size: 1.5em;
+}
+      
+.footer{
+position: relative;
+bottom: 400px;
+}
+}
 
-      }
-    }
-    
-    
-    @media screen and (min-width:375px) and (max-width:375px)
-{
-  
-  .header{
-    background-color: #C40000;
-    color: #F3D70D;
-    height: 150px;
-    width: 375px;}
-
-    .logo img{
-     height: 145px;
-     position: relative;
-     bottom: 10px;
-    }
-
-    .links {
-    position: relative;
-    right: 16px;
-    bottom: 150px;
-    font-size: 1.7em;
-      }
-      .links a{
-          color: #F3D70D;
-          text-decoration: none;
-          font-family: JI Burrito;
-      }  
-
-      .column  {
-        max-width: 360px;
-    position: relative;
-    left: 40px;
-      }
-      .form-group{
-        font-size: 1em;
-      }
-      .form-check{
-        font-size: 1.5em;
-      }
-      .footer{
-        position: relative;
-        bottom: 400px;
-
-      }
-    }
-
-    @media screen and (min-width:425px) and (max-width:425px)
+@media screen and (min-width:425px) and (max-width:425px)
 {
   
   .header{
