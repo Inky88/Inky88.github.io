@@ -1,234 +1,220 @@
 body {
-    background-color: #1C7EC6;
-    margin: 0;
-    font-family: 'calibri';
+background-color: #1C7EC6;
+margin: 0;
+font-family: 'calibri';
 }
 
 .header{
-    background-color:#C40000 ;
-    color: #F3D70D;
-    height: 208px;
-
+background-color:#C40000 ;
+color: #F3D70D;
+height: 208px;
 }
 
-
 .logo img{
-    margin: 10px 0 0 20px;
+margin: 10px 0 0 20px;
 }
 
 .links {
-  position: relative;bottom: 120px;right: 130px;
-    font-size: 3em;
-    text-align: right;
+position: relative;bottom: 120px;right: 130px;
+font-size: 3em;
+text-align: right;
 }
 
 .links a{
-    color: #F3D70D;
-    padding-left: 160px;
-    padding-right: 20x;
-    text-decoration: none;
-    font-family: JI Burrito;
-   
+color: #F3D70D;
+padding-left: 160px;
+padding-right: 20x;
+text-decoration: none;
+font-family: JI Burrito; 
 }
-
 
 .container {
-    position: absolute;
-   margin-top: 40px;
-   margin-left: 20px;
-    text-align: left;
+position: absolute;
+margin-top: 40px;
+margin-left: 20px;
+text-align: left;
+}
   
-  }
-  
-  .top-left {
-    position: absolute;
-  bottom: 100px;
-    left: 50px;
-    font-family: JI Burrito;
-    font-size: 1.3em;
-    max-width: 1050px;
-    margin-top: 300px;
-    color: #C40000;
-  }
+.top-left {
+position: absolute;
+bottom: 100px;
+left: 50px;
+font-family: JI Burrito;
+font-size: 1.3em;
+max-width: 1050px;
+margin-top: 300px;
+color: #C40000;
+}
 
-  .footer{
-    color:#C40000;
-    background-color : #F3D70D;
- margin-top: 80px;
- font-size: 0.8em;
- text-align: center;
- height: 120px;
- margin-top: 765px;
- 
- 
- }
- .footer h2{
-     margin-left: 30px;
-     font-family: JI BURRITO;
-     color: #C40000;
-    
- 
- }
- .footer a{
-     text-decoration: none;
- }
- 
- @media screen and (min-width:320px) and (max-width:320px)
-  {
+.footer{
+color:#C40000;
+background-color : #F3D70D;
+margin-top: 80px;
+font-size: 0.8em;
+text-align: center;
+height: 120px;
+margin-top: 765px;
+}
 
- .header{
+.footer h2{
+margin-left: 30px;
+font-family: JI BURRITO;
+color: #C40000;
+}
+
+.footer a{
+text-decoration: none;
+}
+ 
+@media screen and (min-width:320px) and (max-width:320px)
+{
+
+.header{
 color: #F3D70D;
-        height: 150px;
-        width: 320px;}
+height: 150px;
+width: 320px;}
     
-        .logo img{
-         height: 145px;
-         position: relative;
-         bottom: 10px;
-        }
+.logo img{
+height: 145px;
+position: relative;
+bottom: 10px;
+}
     
-        .links {
-        position: relative;
-        right: 16px;
-        bottom: 160px;
-        font-size: 1.7em;
-          }
-          .links a{
-              color: #F3D70D;
-              text-decoration: none;
-              font-family: JI Burrito;
-          } 
+.links {
+position: relative;
+right: 16px;
+bottom: 160px;
+font-size: 1.7em;
+}
+
+.links a{
+color: #F3D70D;
+text-decoration: none;
+font-family: JI Burrito;
+} 
     
-          .top-left {
-      text-align: left;
-         position: relative;
-         bottom: 280px;
-             font-family: JI Burrito;
-             font-size: 1em;
-            max-width: 310px;
-            height: 300px;
-          
-           }
-       
+.top-left {
+text-align: left;
+position: relative;
+bottom: 280px;
+font-family: JI Burrito;
+font-size: 1em;
+max-width: 310px;
+height: 300px;
+}
 
 .container{
-  display: none;
-  height: 300px;
-
+display: none;
+height: 300px;
 }
+
 .footer{
 position: relative;
 bottom: 600px;
 max-height: 150px;
-  text-align: center;
- }
-
-    
-   
-
-  }
-
-  @media screen and (min-width:375px) and (max-width:375px)
-  {
-
- .header{
-color: #F3D70D;
-        height: 150px;
-        width: 375px;}
-    
-        .logo img{
-         height: 145px;
-         position: relative;
-         bottom: 10px;
-        }
-    
-        .links {
-        position: relative;
-        right: 16px;
-        bottom: 150px;
-        font-size: 1.7em;
-          }
-          .links a{
-              color: #F3D70D;
-              text-decoration: none;
-              font-family: JI Burrito;
-          } 
-    
-          .top-left {
-      text-align: left;
-         position: relative;
-         bottom: 280px;
-             font-family: JI Burrito;
-             font-size: 1em;
-            max-width: 310px;
-            height: 300px;
-          
-           }
-       
-
-.container{
-  display: none;
-  height: 300px;
-
+text-align: center;
 }
+}
+
+@media screen and (min-width:375px) and (max-width:375px)
+{
+
+.header{
+color: #F3D70D;
+height: 150px;
+width: 375px;}
+
+.logo img{
+height: 145px;
+position: relative;
+bottom: 10px;
+}
+    
+.links {
+position: relative;
+right: 16px;
+bottom: 150px;
+font-size: 1.7em;
+}
+
+.links a{
+color: #F3D70D;
+text-decoration: none;
+font-family: JI Burrito;
+} 
+    
+.top-left {
+text-align: left;
+position: relative;
+bottom: 280px;
+font-family: JI Burrito;
+font-size: 1em;
+max-width: 310px;
+height: 300px;
+}
+      
+.container{
+display: none;
+height: 300px;
+}
+
 .footer{
 position: relative;
 bottom: 600px;
 max-height: 150px;
-  text-align: center;
- }
-  }
-
-
-  @media screen and (min-width:425px) and (max-width:435px)
-  {
-
- .header{
-color: #F3D70D;
-        height: 150px;
-        width: 425px;}
-    
-        .logo img{
-         height: 145px;
-         position: relative;
-         bottom: 10px;
-        }
-    
-        .links {
-        position: relative;
-        right: 16px;
-        bottom: 150px;
-        font-size: 1.7em;
-          }
-          .links a{
-              color: #F3D70D;
-              text-decoration: none;
-              font-family: JI Burrito;
-          } 
-    
-          .top-left {
-      text-align: left;
-         position: relative;
-         bottom: 280px;
-             font-family: JI Burrito;
-             font-size: 1em;
-            max-width: 310px;
-            height: 300px;
-          
-           }
-       
-
-.container{
-  display: none;
-  height: 300px;
-
+text-align: center;
 }
+}
+
+
+@media screen and (min-width:425px) and (max-width:435px)
+{
+
+.header{
+color: #F3D70D;
+height: 150px;
+width: 425px;}
+    
+.logo img{
+height: 145px;
+position: relative;
+bottom: 10px;
+}
+    
+.links {
+position: relative;
+right: 16px;
+bottom: 150px;
+font-size: 1.7em;
+}
+
+.links a{
+color: #F3D70D;
+text-decoration: none;
+font-family: JI Burrito;
+} 
+    
+.top-left {
+text-align: left;
+position: relative;
+bottom: 280px;
+font-family: JI Burrito;
+font-size: 1em;
+max-width: 310px;
+height: 300px;
+}
+       
+.container{
+display: none;
+height: 300px;
+}
+
 .footer{
 position: relative;
 bottom: 600px;
 max-height: 150px;
-  text-align: center;
-  width: 425px;
+text-align: center;
+width: 425px;
  }
 }
 
@@ -283,4 +269,4 @@ bottom: 750px;
 max-height: 150px;
 text-align: center;
 }
-    }
+}
