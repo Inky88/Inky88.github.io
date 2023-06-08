@@ -1,102 +1,215 @@
-
-
-
-
-
 body {
-    background-color: #ADE4E5;
-    margin: 0;
-    font-family: 'JI BURRITO';
+background-color: #ADE4E5;
+margin: 0;
+font-family: 'JI BURRITO';
 }
-
-
 
 .header{
-    background-color: #C40000;
-    color: #F3D70D;
-    height: 208px;
-
+background-color: #C40000;
+color: #F3D70D;
+height: 208px;
 }
 
+.logo img{
+margin: 10px 0 0 20px;
+}
 
-    .logo img{
-        margin: 10px 0 0 20px;
-    }
-  
+.links {
+position: relative;bottom: 120px;right: 130px;
+font-size: 3em;
+text-align: right;
+}
     
-    
-    .links {
-      position: relative;bottom: 120px;right: 130px;
-        font-size: 3em;
-        text-align: right;
-    }
-    
-    .links a{
-        color: #F3D70D;
-        padding-left: 160px;
-        padding-right: 20x;
-        text-decoration: none;
-        font-family: JI Burrito;
-    }    
+.links a{
+color: #F3D70D;
+padding-left: 160px;
+padding-right: 20x;
+text-decoration: none;
+font-family: JI Burrito;
+}    
 
 .footer{
-   color:#C40000;
-   background-color : #F3D70D;
+color:#C40000;
+background-color : #F3D70D;
 margin-top: 80px;
 font-size: 0.8em;
 text-align: center;
 height: 120px;
-
-
 }
+
 .footer h2{
-    margin-left: 30px;
-    font-family: JI BURRITO;
-    color: #C40000;
-   
-
+margin-left: 30px;
+font-family: JI BURRITO;
+color: #C40000;
 }
+
 .footer a{
-    text-decoration: none;
+text-decoration: none;
 }
 
-@media screen and (max-width:320px)
+
+@media screen and (min-width:320px) and (max-width:320px)
 {
     
 .header{
-    background-color: #C40000;
-    color: #F3D70D;
-    height: 150px;
-    width: 320px;}
+background-color: #C40000;
+color: #F3D70D;
+height: 150px;
+width: 320px;}
 
-    .logo img{
-     height: 145px;
-     position: relative;
-     bottom: 10px;
-    }
+.logo img{
+height: 145px;
+position: relative;
+bottom: 10px;
+}
 
-    .links {
-    position: relative;
-    right: 16px;
-    bottom: 140px;
-    font-size: 1.7em;
-      }
-      .links a{
-          color: #F3D70D;
-          text-decoration: none;
-          font-family: JI Burrito;
-      }  
-      .promo img{
-       max-width: 320px;
-    position: relative;
-    bottom: 10px;
-    }
-       
-       
-       .footer{
-        height: 240px;
-        text-align: center;
-       }
+.links {
+position: relative;
+right: 16px;
+bottom: 140px;
+font-size: 1.7em;
+}
+.links a{
+color: #F3D70D;
+text-decoration: none;
+font-family: JI Burrito;
+}  
 
-  
+.promo img{
+max-width: 320px;
+position: relative;
+bottom: 10px;
+}
+
+.footer{
+height: 240px;
+text-align: center;
+}
+}
+
+@media screen and (min-width:375px) and (max-width:375px)
+{
+    
+.header{
+background-color: #C40000;
+color: #F3D70D;
+height: 150px;
+width: 375px;}
+
+.logo img{
+height: 145px;
+position: relative;
+bottom: 10px;
+}
+
+.links {
+position: relative;
+right: 16px;
+bottom: 130px;
+font-size: 1.7em;
+}
+      
+.links a{
+color: #F3D70D;
+text-decoration: none;
+font-family: JI Burrito;
+}  
+
+.promo img{
+max-width: 360px;
+position: relative;
+bottom: 10px;
+}
+
+.footer{
+height: 250px;
+text-align: center;
+max-width: 375px;
+} 
+}
+
+@media screen and (min-width:425px) and (max-width:425px)
+{
+    
+.header{
+background-color: #C40000;
+color: #F3D70D;
+height: 150px;
+width: 425px;
+}
+
+.logo img{
+height: 145px;
+position: relative;
+bottom: 10px;
+}
+
+.links {
+position: relative;
+right: 16px;
+bottom: 130px;
+font-size: 1.7em;
+}
+.links a{
+color: #F3D70D;
+text-decoration: none;
+font-family: JI Burrito;
+}  
+
+.promo img{
+max-width: 415px;
+position: relative;
+bottom: 10px;
+max-width: 425px;
+}
+
+.footer{
+height: 250px;
+text-align: center;
+max-width: 425px;
+}
+}
+
+
+
+@media screen and (min-width:768px) and (max-width:768px)
+{
+    
+.header{
+background-color: #C40000;
+color: #F3D70D;
+height: 150px;
+width: 768px;
+}
+
+.logo img{
+height: 145px;
+position: relative;
+bottom: 10px;
+}
+
+.links {
+text-align: center;
+position: relative;
+left: 70px;
+bottom: 100px;
+font-size: 1.7em;
+
+}
+.links a{
+color: #F3D70D;
+text-decoration: none;
+font-family: JI Burrito;
+padding-left: 30px;
+}  
+
+.promo img{
+width: 768px;
+position: relative;
+bottom: 10px;
+}
+.footer{
+height: 250px;
+text-align: center;
+}
 }

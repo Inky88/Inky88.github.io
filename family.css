@@ -1,111 +1,253 @@
 body {
-    background-color: #1C7EC6;
-    margin: 0;
-    font-family: 'calibri';
+background-color: #1C7EC6;
+margin: 0;
+font-family: 'calibri';
 }
 
 .header{
-    background-color: #C40000;
-    color: #F3D70D;
-    height: 208px;
-
+background-color: #C40000;
+color: #F3D70D;
+height: 208px;
 }
 
 .logo img{
-    margin: 10px 0 0 20px;
+margin: 10px 0 0 20px;
 }
-    .links {
-      position: relative;bottom: 120px;right: 130px;
-        font-size: 3em;
-        text-align: right;
-    }
     
-    .links a{
-        color: #F3D70D;
-        padding-left: 160px;
-        padding-right: 20x;
-        text-decoration: none;
-        font-family: JI Burrito;
-    }    
+.links {
+position: relative; bottom: 120px;right: 130px;
+font-size: 3em;
+text-align: right;
+}
+    
+.links a{
+color: #F3D70D;
+padding-left: 160px;
+padding-right: 20x;
+text-decoration: none;
+font-family: JI Burrito;
+}    
 
-.column  {
-    
-    float: left;
-    width: 50%.50%;
-    padding: 5px;
-    margin-right: 36px; 
-  }
+.column {
+float: left;
+width: 50%.50%;
+padding: 5px;
+margin-right: 36px; 
+}
 .join{
-    margin-top: 200px;
+ margin-top: 200px;
 }
-
-
 
 .footer{
-    color:#C40000;
-    background-color : #F3D70D;
- margin-top: 80px;
- font-size: 0.8em;
- text-align: center;
- height: 120px;
- margin-top: 765px;
- 
- 
- }
- .footer h2{
-     margin-left: 30px;
-     font-family: JI BURRITO;
-     color: #C40000;
-    
- 
- }
- .footer a{
-     text-decoration: none;
- }
- 
- @media screen and (max-width:320px)
+color:#C40000;
+background-color : #F3D70D;
+margin-top: 80px;
+font-size: 0.8em;
+text-align: center;
+height: 120px;
+margin-top: 765px;
+}
+.footer h2{
+margin-left: 30px;
+font-family: JI BURRITO;
+color: #C40000;
+}
+
+.footer a{
+text-decoration: none;
+}
+
+@media screen and (min-width:320px)and (max-width:330px)
 {
-
-
 .header{
-        background-color: #C40000;
-        color: #F3D70D;
-        height: 150px;
-        width: 320px;}
+background-color: #C40000;
+color: #F3D70D;
+height: 150px;
+width: 320px;
+}
+.logo img{
+height: 145px;
+position: relative;
+bottom: 10px;
+}
+
+.links {
+position: relative;
+right: 16px;
+bottom: 160px;
+font-size: 1.7em;
+}
+.links a{
+color: #F3D70D;
+text-decoration: none;
+font-family: JI Burrito;
+}  
+.column{
+position: relative;
+bottom: 190px;
+left: 50px;
+}
+.join{
+position: relative;
+right: 30px;
+}
+.footer{
+max-height: 737px;
+width: 320px;
+}
+}
+
+
     
-        .logo img{
-         height: 145px;
-         position: relative;
-         bottom: 10px;
-        }
+    @media screen and (min-width:375px) and (max-width:400px)
+    {
     
-        .links {
-        position: relative;
-        right: 16px;
-        bottom: 160px;
-        font-size: 1.7em;
+    
+    .header{
+            background-color: #C40000;
+            color: #F3D70D;
+            height: 150px;
+            width: 375px;}
+        
+            .logo img{
+             height: 145px;
+             position: relative;
+             bottom: 10px;
+            }
+        
+            .links {
+            position: relative;
+            right: 16px;
+            bottom: 150px;
+            font-size: 1.7em;
+              }
+              .links a{
+                  color: #F3D70D;
+                  text-decoration: none;
+                  font-family: JI Burrito;
+              }  
+    
+    
+    
+          .column{
+            position: relative;
+            bottom: 190px;
+            left: 50px;
+    
           }
-          .links a{
-              color: #F3D70D;
-              text-decoration: none;
-              font-family: JI Burrito;
-          }  
+          .join{
+            position: relative;
+            right: 30px;
+    
+          }
+          .footer{
+            max-height: 737px;
+            width: 375px;
+          }
+        }
 
+        @media screen and (min-width:425px) and (max-width:500px)
+        {
+        
+        
+        .header{
+                background-color: #C40000;
+                color: #F3D70D;
+                height: 150px;
+                width: 425px;}
+            
+                .logo img{
+                 height: 145px;
+                 position: relative;
+                 bottom: 10px;
+                }
+            
+                .links {
+                position: relative;
+                right: 16px;
+                bottom: 150px;
+                font-size: 1.7em;
+                  }
+                  .links a{
+                      color: #F3D70D;
+                      text-decoration: none;
+                      font-family: JI Burrito;
+                  }  
+        
+        
+        
+              .column{
+                position: relative;
+                bottom: 190px;
+                left: 50px;
+        
+              }
+              .join{
+                position: relative;
+                right: 30px;
+        
+              }
+              .footer{
+                max-height: 737px;
+                width: 425px;
+              }
+            }
+    
 
+            @media screen and (min-width:768px) and (max-width:768px)
+            {
+                
+            .header{
+                background-color: #C40000;
+                color: #F3D70D;
+                height: 150px;
+                width: 768px;}
+            
+                .logo img{
+                 height: 145px;
+                 position: relative;
+                 bottom: 10px;
+                }
+            
+                .links {
+                text-align: center;
+                position: relative;
+                left: 60px;
+                bottom: 100px;
+                font-size: 1.7em;
+            
+                  }
+                  .links a{
+                      color: #F3D70D;
+                      text-decoration: none;
+                      font-family: JI Burrito;
+                      padding-left: 30px;
+                  }  
+    
 
-      .column{
-        position: relative;
-        bottom: 190px;
-        left: 50px;
+              .column{
+                position: relative;
+                bottom: 190px;
+                left: 210px;
+                max-width: 400px;
 
-      }
-      .join{
-        position: relative;
-        right: 30px;
+        
+              }
+              .join{
+                position: relative;
+                right: 30px;
+                max-width: 400px;
+        
+              }
+              .footer{
+                height: 150px;
+                width: 768px;
+                position: relative;
+                bottom: 180px;
+               
+              
+              }
+            
 
-      }
-      .footer{
-        max-height: 737px;
-      }
-    }
-
+              }
+            
